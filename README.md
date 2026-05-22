@@ -29,13 +29,6 @@ Copy-Item .env.example .env
 # Mở file .env, điền DASHSCOPE_API_KEY=sk-...
 ```
 
-`.env` file gồm 3 biến:
-| Biến | Mặc định | Mô tả |
-|---|---|---|
-| `DASHSCOPE_API_KEY` | (bắt buộc) | API key của Alibaba DashScope |
-| `DASHSCOPE_BASE_URL` | `https://dashscope-intl.aliyuncs.com/compatible-mode/v1` | Endpoint. Mainland China dùng `dashscope.aliyuncs.com/...` |
-| `DASHSCOPE_MODEL` | `qwen-vl-max-latest` | Có thể đổi sang `qwen-vl-plus` (rẻ hơn) hoặc `qwen-vl-ocr-latest` (chuyên OCR) |
-
 ## Cách dùng
 
 ### Chuẩn bị input
